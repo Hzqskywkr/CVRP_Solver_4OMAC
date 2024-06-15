@@ -168,7 +168,7 @@ def runIsingAlgorithm_simulator(niter, n, MATRIX_SIZE, weight, K, L, KS, scale, 
     return best_matrix, best_energy
 
 def TSP_Solver(n,TSP_weight):
-    A = np.max(TSP_weight) * n
+    A = np.max(TSP_weight)
     QA = Q_Matrix_1(n)
     edge_null = []
     edges = []
